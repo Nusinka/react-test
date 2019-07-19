@@ -21,5 +21,6 @@ export default function TransformedTextField({
   meta,
   ...props
 }: PropsT) {
+  console.log(props);
   return <TextField {...input} {...props} error={meta.error && meta.touched} />;
 }

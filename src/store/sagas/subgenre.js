@@ -27,7 +27,10 @@ function* receiveSubgenresSaga(action: { type: string, data: SubgenreT }) {
     const updatedGenre = genres.find(
       genre => genre.name === state.form.newBook.values.genre
     );
-    updatedGenre.subgenres.push({ ...action.data, id: receivedId });
+
+    const newSubgenre = { ...action.data, id: receivedId };
+    console.log("Created subgenre:", newSubgenre);
+    updatedGenre.subgenres.push(newSubgenre);
 
     yield put(updateSubgenres(genres));
     yield put(changeStep(3));

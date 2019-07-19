@@ -1,6 +1,6 @@
 // @flow
 import React from "react";
-import { reduxForm, Field, Form } from "redux-form";
+import {reduxForm, Field, Form, formValueSelector} from "redux-form";
 import { compose } from "recompose";
 import { connect } from "react-redux";
 import type { FormProps } from "redux-form";
@@ -11,7 +11,8 @@ import { createSubgenre } from "../../store/actions/subgenre";
 import validate from "./validate";
 
 type PropsT = {
-  createSubgenre: Function
+  createSubgenre: Function,
+  isDescriptionRequired: boolean
 } & FormProps;
 
 const classes = { formWrapper: { flex: 1 } };
@@ -27,6 +28,7 @@ const renderCheckbox = ({ input }) => (
           component={Checkbox}
           margin="normal"
           color="primary"
+          onClick={input.onChange}
         />
       }
     />
@@ -59,13 +61,17 @@ function NewSubgenre(props: PropsT) {
         multiline
         margin="normal"
         rows={4}
+        required={props.isDescriptionRequired}
       />
       <Field name="isDescriptionRequired" component={renderCheckbox} />
     </Form>
   );
 }
 
-const mapStateToProps = () => ({
+const selector = formValueSelector("newSubgenre");
+
+const mapStateToProps = (state) => ({
+  isDescriptionRequired: selector(state, "isDescriptionRequired"),
   initialValues: {
     isDescriptionRequired: false
   }

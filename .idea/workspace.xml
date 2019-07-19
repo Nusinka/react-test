@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db2af7bc-8f5a-4a6f-9126-20cb476370ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/FinishPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InformationPage/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InformationPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewBookPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewBookPage/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewSubgenre/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewSubgenre/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stepper/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextField/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mockData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/subgenre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/subgenre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas/subgenre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewSubgenre/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewSubgenre/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextField/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextField/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/sagas/subgenre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/sagas/subgenre.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,6 +30,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Button/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/actions/subgenre.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -65,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/store/sagas/subgenre.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="436">
+              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding>
                 <element signature="e#9#82#0" expanded="true" />
               </folding>
@@ -77,11 +62,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NewBookPage/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+            <state relative-caret-position="317">
+              <caret line="157" column="2" selection-start-line="157" selection-start-column="2" selection-end-line="157" selection-end-column="47" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NewSubgenre/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TextField/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
               <folding>
                 <element signature="e#9#35#0" expanded="true" />
               </folding>
@@ -102,7 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>allStepsCompleted</find>
       <find>handleNext</find>
       <find>CREATE_SUBGENRE</find>
       <find>changeStep</find>
@@ -131,6 +139,7 @@
       <find>clearNewSubgenre</find>
       <find>CREATE_NEW_SUBGENRE</find>
       <find>console.log</find>
+      <find>selector</find>
       <find>createNewSubgenre</find>
     </findStrings>
     <replaceStrings>
@@ -164,23 +173,23 @@
         <option value="$PROJECT_DIR$/src/store/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/store/configureStore.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/TextField/index.js" />
         <option value="$PROJECT_DIR$/src/components/FinishPage/index.js" />
         <option value="$PROJECT_DIR$/src/components/InformationPage/data.js" />
         <option value="$PROJECT_DIR$/src/models.js" />
         <option value="$PROJECT_DIR$/src/components/NewBookPage/validate.js" />
         <option value="$PROJECT_DIR$/src/components/NewSubgenre/validate.js" />
-        <option value="$PROJECT_DIR$/src/components/NewSubgenre/index.js" />
         <option value="$PROJECT_DIR$/src/store/actions/step.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/book.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/step.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/subgenre.js" />
         <option value="$PROJECT_DIR$/src/store/sagas/book.js" />
-        <option value="$PROJECT_DIR$/src/store/sagas/subgenre.js" />
         <option value="$PROJECT_DIR$/src/store/actions/subgenre.js" />
         <option value="$PROJECT_DIR$/src/components/Stepper/index.js" />
         <option value="$PROJECT_DIR$/src/store/actions/book.js" />
         <option value="$PROJECT_DIR$/src/components/NewBookPage/index.js" />
+        <option value="$PROJECT_DIR$/src/components/TextField/index.js" />
+        <option value="$PROJECT_DIR$/src/components/NewSubgenre/index.js" />
+        <option value="$PROJECT_DIR$/src/store/sagas/subgenre.js" />
       </list>
     </option>
   </component>
@@ -224,7 +233,28 @@
               <item name="tradecore-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="NewBookPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tradecore-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tradecore-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="NewSubgenre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tradecore-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tradecore-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Stepper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tradecore-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tradecore-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TextField" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tradecore-test" type="b2602c69:ProjectViewProjectNode" />
@@ -238,6 +268,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tradecore-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tradecore-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="sagas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,12 +328,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563191498533</updated>
-      <workItem from="1563191500319" duration="57948000" />
+      <workItem from="1563191500319" duration="59509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57948000" />
+    <option name="totallyTimeSpent" value="59509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-640" width="1920" height="1080" extended-state="0" />
@@ -392,16 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Button/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#9#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FinishPage/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -446,16 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NewSubgenre/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#9#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -467,16 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TextField/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="75" />
-          <folding>
-            <element signature="e#9#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,12 +542,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/sagas/subgenre.js">
+    <entry file="file://$PROJECT_DIR$/src/store/actions/book.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NewBookPage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="157" column="2" selection-start-line="157" selection-start-column="2" selection-end-line="157" selection-end-column="47" />
           <folding>
-            <element signature="e#9#82#0" expanded="true" />
+            <element signature="e#9#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -555,19 +569,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/book.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Button/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="391">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NewBookPage/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/TextField/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        <state relative-caret-position="408">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
           <folding>
             <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NewSubgenre/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/sagas/subgenre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="e#9#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
